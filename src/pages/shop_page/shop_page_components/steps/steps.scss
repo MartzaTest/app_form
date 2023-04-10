@@ -1,0 +1,340 @@
+@import '../../../../assets/global_style/Foonts.scss';
+@import '../../../../assets/global_style/colors.scss';
+
+
+    .StepOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70em;
+            h2{
+                        font-size: $form-title !important;
+                        text-align: center;
+                    }
+            h3{
+                        font-size: $font-size-button !important;
+                        color: $support_color ;
+                        font-size: 4rem;
+                        text-align: center;
+                    }
+          .content{
+            width: 100%;
+            min-height: 10em;
+            display: flex;
+            .content_left{
+                width: 60%;
+                min-height: 10em;
+                padding-left: 1em;
+                padding-top: 4em;
+                display: flex;
+                flex-direction: column;
+                gap: 5em;
+                .number{
+                    display: flex;
+                    align-items: center;
+                    gap: 2em;
+                    img{
+                        width: 3em;
+                    }
+                    p{
+                        font-size: $form-_title;
+                        color: $support_color;
+                    }
+                    
+                    
+                }
+                .titleUL{
+
+                       ul{
+                        padding-left: 5em;
+                        li{
+                            font-size: $form-li;
+                            color: $support_color;
+                        }
+                    } 
+                    }
+            }
+            .content_right{
+                width: 40%;
+                min-height: 10em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 4em;
+                padding-bottom: 2em;
+                gap: 0.5em;
+                img{
+                    width: 20em;
+                }
+                
+            }
+          }  
+           
+        
+    }
+
+    .StepTwo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70em;
+            h2{
+                        font-size: $form-title !important;
+                        text-align: center;
+                    }
+            h3{
+                        font-size: $font-size-button !important;
+                        color: $support_color ;
+                        font-size: 4rem;
+                        text-align: center;
+                    }
+        ._info_number{
+                display: flex;
+                align-items: center;
+                gap: 2em;
+                justify-content: center;
+                padding-top: 4em;
+                padding-bottom: 2em;
+                img{
+                    width: 3em;
+                }
+                p{
+                    font-size: $form-_title;
+                    color: $support_color;
+                }
+        }
+        .img_wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            .img_container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: nowrap;
+                gap: 0.5em;
+                img{
+                cursor: pointer;
+                }
+                p{
+                    font-size: 2rem;
+                    font-weight: $font-weight-normal;
+                }
+            }
+            
+        }
+        .form_centred , .form_classic , .form_customized{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+                .supportP{
+                    opacity: 0.3;
+                }
+                p{
+                    color: $support_color;
+                }
+                input{
+                color: $support_color;
+                height: 3em;
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 0.8em;
+                }
+            
+            .Text_area{
+                textarea{
+                    min-width: 100%;
+                    min-height: 6em;
+                }
+            }
+        }
+    }
+
+.StepThree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70em;
+        .StepThree_container{
+            width: 100%;
+           .img_wrapper{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            cursor: pointer;
+            gap: 2em;
+            .img_container{
+                img{
+                    width: 15em;
+                }
+            }
+        } 
+        }
+        
+        h2{
+            font-size: $form-title !important;
+            text-align: center;
+        }
+h3{
+            font-size: $font-size-button !important;
+            color: $support_color ;
+            font-size: 4rem;
+            text-align: center;
+        }
+._info_number{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    img{
+        width: 3em;
+    }
+    p{
+        font-size: $form-_title;
+        color: $support_color;
+    }
+}
+.design_form_first , .design_form_second , .design_form_third , .design_form_fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+        .supportP{
+            opacity: 0.3;
+        }
+        p{
+            color: $support_color;
+        }
+        input{
+        color: $support_color;
+        height: 3em;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 0.8em;
+        }
+    
+    .Text_area{
+        textarea{
+            min-width: 100%;
+            min-height: 6em;
+        }
+}
+}
+}
+
+.StepFour , .StepFour{
+    max-width: 90em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    img{
+        cursor: pointer;
+    }
+    h2{
+        padding-bottom: 1em;
+    }
+    .StepFour_main{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        border: 3px solid $primary;
+        padding: 2em;
+        border-radius: 2em;
+        animation: fadeIn 1s ease;
+          
+      .close{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+            img{
+                width: 2em;
+                cursor: pointer;
+            }
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1em;
+            img{
+                border-radius: 16px;
+                border: 2px solid transparent;
+            }
+        } 
+        .inputs{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            .inputs_div{
+                width: 70%;
+               input{
+                color: $support_color;
+                height: 3em;
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 0.8em;
+            } 
+            .inputs_div_in{
+                display: flex;
+                gap: 1em;
+                .input_support{
+                    width: 30%;
+                }
+            }
+            }
+            
+            
+        }
+        
+    }
+    .addToCart{
+        padding-top: 3em;
+                .cart{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 10em;
+                    height: 2.5em;
+                    background-color: $primary;
+                    font-size: 1.2rem;
+                    color: white;
+                    border-radius: 5px;
+                    border: 2px solid $primary;
+                    svg{
+                        width: 2em;
+                        fill: white;
+                    }
+                    &:hover{
+                        background-color: white;
+                        color: $primary;
+                        svg{
+                            fill: $primary;
+                        }
+                    }
+                }
+            }
+}
+.shadow {
+    border: 2px solid $primary !important;
+  }

@@ -1,0 +1,9 @@
+@import '../../assets/global_style/Colors.scss';
+@import '../../assets/global_style/Foonts.scss';
+.Shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10em;
+}

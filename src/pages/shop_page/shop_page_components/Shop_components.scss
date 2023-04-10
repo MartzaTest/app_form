@@ -1,0 +1,296 @@
+@import '../../../assets/global_style/Colors.scss';
+@import '../../../assets/global_style/Foonts.scss';
+
+
+.Shop_button_wrapper{
+    padding-top: 5em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    button{
+        width: 20em;
+        height: 5em;
+        border-radius: 1em;
+        margin: 0 auto;
+    }
+}
+
+.Form_section{
+    min-height: 20em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   .btnWrapper{
+    width: 70em;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    justify-content: space-between;
+    .btncontinue{
+        margin-left: auto; 
+        width: 10em;
+        height: 2.5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        border: 1px solid $primary;
+        color: $primary;
+        background-color: white;
+        svg{
+            min-width: 2em;
+            fill: $primary;
+            transform: rotate(180deg);
+        }
+        &:hover{
+            background-color: $primary;
+            color: white;
+            svg{
+                fill: white;
+            }
+        }
+    }
+    .btnBack{
+        margin-right: auto;
+        width: 10em;
+        height: 2.5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        border: 1px solid $primary;
+        color: $primary;
+        background-color: white;
+        svg{
+            min-width: 2em;
+            fill: $primary;
+        }
+        &:hover{
+            background-color: $primary;
+            color: white;
+            svg{
+                fill: white;
+            }
+        }
+    }
+   }
+}
+
+.Card_section{
+    padding-top: 11em;
+    max-width: 1440px;
+    width: 100%;
+    padding-bottom: 5em;
+    h1{
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        color: $support_color;
+    }
+    .card_section_display{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: start;
+    }
+}
+
+.Content_section{
+    background-color: $primary;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    .Content_section__{
+        width: 1440px; 
+        height: 50em;
+        h2{
+        padding: 0.5em;
+        font-size: $font-size-title;
+        color: $support_color;
+        line-height: 52px;
+    }
+    p{
+        padding: 1em;
+        color: $secondary;
+        line-height: $line-height-base;
+        font-size: $font-size-content;
+        a{
+            color: $secondary;
+            font-weight: bold;
+        }
+    }
+    .Content_section__Img{
+        padding-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .DisplayImg{
+            width: 45em;
+            border-radius: 2em;
+            animation: fadeIn 1s ease ;
+            @keyframes fadeIn {
+                from{
+                    opacity: 0;
+                }
+                to{
+                    opacity: 1;
+                }
+            }
+        }
+        .SupportImg{
+            width: 45em;
+            transform: translate(-300px , -220px);
+           opacity: 0;
+        }
+    }
+    }
+    
+}
+
+
+
+.fadeInLeftAnimation {
+    animation: fadeInLeft 1s forwards;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+        transform: translate(-800px , -220px);
+      opacity: 1;
+    }
+    100% {
+        transform: translate(-300px , -220px);
+      opacity: 1;
+    }
+  }
+
+.WhyUsing_section{
+    padding-top: 7em;
+    padding-bottom: 7em;
+    height:  auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    h2{
+       max-width: 1440px;
+        padding-top: 1.2em;
+        color: $support_color;
+        line-height: 62px;
+        padding-left: 0.5em;
+    }
+    p{
+        color: black;
+    }
+    .WhyUsing_AllCards{
+        max-width: 1440px;
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.FAQ_section{
+    padding: 1em;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary;
+    .FAQ_section_Title{
+        width: 98%;
+        background-color: $secondary;
+        h2{
+           padding-left: 10%; 
+        }
+        p{
+            color: $support_color;
+            padding-left: 10%;
+            font-size: $font-size-content;
+        }
+        .FAQ_section_Title__{
+            width: 98%;
+            background-color: red;
+        }
+    }
+    .FAQ_section_display{
+        background-color: $primary;
+        max-width: 1440px;
+        width: 100%;
+        padding: 1em;
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .FAQ_section_display__{
+            background-color: $secondary;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            width: 98%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1368px){
+    .FAQ_section_display__{
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .card_section_display{
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .Card_section{
+        width: 95vw;
+    }
+    .DisplayImg{
+        max-width: 35em;
+       
+    }
+    .SupportImg{
+        max-width: 35em;
+        transform: translate(-40% , -30%) !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .DisplayImg{
+        max-width: 25em;
+       
+    }
+    .SupportImg{
+        max-width: 25em;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .Card_section{
+        width: 100vw;
+        h1{
+            padding: 0;
+            text-align: center;
+            font-size: 3em;
+        }
+    }
+}

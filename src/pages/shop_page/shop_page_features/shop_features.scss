@@ -1,0 +1,173 @@
+@import '../../../assets/global_style/Colors.scss';
+@import '../../../assets/global_style/Foonts.scss';
+
+.Card{
+    width: 21em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .Card_img{
+       .cart{
+        width: 45px;
+        position: relative;
+        top: -77%;
+        right: -77%;
+        transition: 0.3s;
+        opacity: 0; 
+       }
+       &:hover{
+        .cart{opacity: 1;} 
+    }
+    }
+    img{
+        width: 95%;
+        border-radius: 2em;
+        cursor: pointer;
+       
+    }
+    h3{
+        padding-left: 0.3em;
+        color:$primary ;
+        font-size: $font-size-button;
+        line-height: 27px;
+    }
+    p{
+        padding-left: 0.3em;
+        font-size: 1.875rem;
+        line-height: 30px;
+        font-weight: $font-weight-bold;
+        color: $support_color;
+    }
+    button{
+        width: 70%;
+        font-size: $font-size-button;
+        border: 1px solid $primary;
+        transition: 0.3s;
+        &:hover{
+            color: $support_color;
+            background-color: $secondary;
+        }
+    }
+}
+
+.WhyUsing_card{
+        width: 20em;
+        height: 23em;
+    .display{
+        height: 16em;
+        background-color: $primary;
+        border-radius: 2em;
+       
+        cursor: pointer;
+        a{
+            width: 100%;
+            height: 100%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+            width: 50%;
+            transition: 0.3s;
+        }
+        }
+        
+        &:hover{
+            img{
+                transform: rotateY(180deg);
+            }
+        }
+    }
+    .WhyUsing_card_title{
+        font-size: $font-size-button;
+        font-weight: 200;
+        color: $primary;
+        padding-top: 1em;
+    }
+    .WhyUsing_card_content{
+        font-size: 1.875rem;
+        line-height: 26px;
+        font-weight: $font-weight-normal;
+    }
+}
+
+.FAQ_Card{
+    color: $support_color;
+    width: calc(1440px / 3.3); 
+    .show-content {
+        max-height: 300px;
+        opacity: 1;
+      }
+
+    .title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-top: 2em;
+        cursor: pointer;
+        
+        h4{
+            font-size: $font-size-content;
+            text-decoration: underline;
+            max-width: 80%;
+        }
+      }
+      .unActive {
+        color: $primary;
+      }
+      
+      .active {
+        color: black;
+      }
+      .hr{
+        width: 80%;
+        color: blue;
+        position: relative;
+        left: 1%;
+        opacity: 0.2;
+      }
+       p{
+            padding: 1.2em;
+            padding-left: 1em;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.7s ease, opacity 0.7s ease;
+            color: $primary;
+            font-size: 0.875rem;
+        }
+      .arrow {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        margin-left: 10px;
+        position: relative
+        ;
+        right: 1em;
+      }
+      
+      .arrow.down {
+        transform: rotate(45deg);
+      }
+      
+      .arrow.up {
+        transform: rotate(-135deg);
+      }
+      
+}
+
+@media only screen and (max-width: 1368px){
+    .FAQ_Card{
+        width: calc(1440px / 4);
+    }
+}
+@media only screen and (max-width: 800px){
+    .FAQ_Card{
+        width: 100% !important;
+    }
+}

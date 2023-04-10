@@ -1,0 +1,88 @@
+[
+
+     {
+      "id": 1,
+      "title": "How Much does a card Cost?",
+      "content": "We offer 3 types of cards, depending on the material the cost it is different, please click on Create Your Card to have the updated prices"
+    },
+     {
+      "id": 2,
+      "title": "How can I customize the Physical Business Card?",
+      "content": "You can customize it in just a few clicks. Select the type of card you prefer in our Create Your Card section. Then choose a customization style or add yours! Our team will contact you if there is anything we need to clarify before printing your card."
+    },
+     {
+        "id": 3,
+        "title": "How can I customize the Digital Business Card?",
+        "content": "You can customize it in just a few clicks. Select the type of card you prefer in our Create Your Card section. After the physical card options, you will be able to customize your pictures and buttons of the Digital Business Card."
+      },
+      {
+        "id": 4,
+        "title": "Can I add additional buttons and sections?",
+        "content": "We want you to use your Business Card in every situation, and be able to show what you need. Therefore, we give you the option to contact us if you require any additional section or button that you didn’t find during the purchase process."
+      },
+      {
+        "id": 5,
+        "title": "Can you make another design for my Profile Page?",
+        "content": "Sure! Please, write to info@businesscardsmalta.com. we will be more than happy to help you with a completely special and branded design."
+      },
+       {
+        "id": 6,
+        "title": "Can I link my card to an specific website instead of my Profile page?",
+        "content": "Of course! Just specify that during the checkout process."
+      },
+      {
+        "id": 7,
+        "title": "Is my card compatible with iPhone?",
+        "content": "Yes! All Digital Business Cards are compatible with any smartphone. However, old models of iPhone don’t have NFC reader. But you can still scan the QR code in them, or simply share the link with the share button and it will work perfectly! Verify that the iPhone is listed under Compatible Devices here.Our recommendation:1. Tap and gently move your Card around the iPhone’s camera, where it should be the NFC reader located.2. Make sure the phone is unlocked and in the home screen.Contact us at info@businesscardsmalta.com. if you have any troubles, and we will be more than happy to help you!"
+      },
+       {
+        "id": 8,
+        "title": "Is my card compatibe with Android?",
+        "content": "Yes! All Digital Business Cards are compatible with any smartphone. However, some smartphones don’t have NFC reader. But you can still scan the QR code in them, or simply share the link with the share button and it will work perfectly! Verify that the smartphone is listed under Compatible Devices here. Our recommendation:1. Make sure the smartphone has the NFC activated. If you are not sure, you can activate it in phone settings and look for NFC.2. Tap and gently move your Card up and down around the back side of the phone, to detect where the NFC reader located. Normally it is in the middle of the smartphone, but it might be different in yours.3. Make sure the phone is unlocked and in the home screen.Contact us at info@businesscardsmalta.com. if you have any troubles, and we will be more than happy to help you!"
+      },
+      {
+        "id": 9,
+        "title": "Can I cancel my order?",
+        "content": "You are able to cancel your order within the 12 hours after the order. Please send us an email to info@businesscardsmalta.com. to get a full refund."
+      },
+       {
+        "id": 10,
+        "title": "How can I contact you?",
+        "content": "Please, send us an e-mail to info@businesscardsmalta.com. we will answer to you as soon as possible! Thank you!"
+      },
+      {
+        "id": 11,
+        "title": "Do you ship Worldwide?",
+        "content": "Our Website only gives the option to ship to Europe, but we can make special shipments Worldwide under request."
+      },
+       {
+        "id": 12,
+        "title": "How long does shipping take?",
+        "content": "Delivery time depend on the location. Maximum delivery time is estimated in 20 days for Europe, and around 12 days for Malta. If you haven’t received your order or would like to request express shipping, please contact us at info@businesscardsmalta.com."
+      },
+       {
+        "id": 13,
+        "title": "What materials are the cards made from?",
+        "content": "We offer PVC, bamboo black, bamboo, and cherry wood options for our digital business cards."
+      },
+      {
+        "id": 14,
+        "title": "Can I order a sample card before making a larger order?",
+        "content": "Yes! Please email us at info@businesscardsmalta.com to request a sample card."
+      },
+       {
+        "id": 15,
+        "title": "How do I update my information on my card after I've ordered it?",
+        "content": "You can easily update your card information by sending us an email to info@businesscardsmalta.com."
+      },
+      {
+        "id": 16,
+        "title": "Can I get a refund if I'm not satisfied with my order?",
+        "content": "We want you to be happy with your order! If you are not satisfied, please email us at info@businesscardsmalta.com to discuss a possible refund or exchange."
+      },
+       {
+        "id": 17,
+        "title": "Do you offer discounts for bulk orders?",
+        "content": "Yes! Please email us at info@businesscardsmalta.com for information on bulk order discounts."
+      }
+    ]

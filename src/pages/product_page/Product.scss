@@ -1,0 +1,214 @@
+@import '../../assets/global_style/Colors.scss';
+@import '../../assets/global_style/Foonts.scss';
+
+.Product{
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .Product_info{
+        width: 1440px;
+        h1{
+            padding-top: 1em;
+            
+        }
+        .info{
+            padding-left: 2em;
+            border-top: 3px solid $primary;
+            background-color: #F7F6F7;
+            color: $support_color;
+            padding-top: 1em;
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            height: 5em;
+            img{
+                width: 20px;
+            }
+            a{
+                &:hover{
+                    color: $support_color;
+                }
+            }
+        }
+    }
+    .Product_content{
+        width: 1440px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .Product_content_left{
+            padding-top: 2em;
+            padding-bottom: 2em;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2em;
+            .Product_card_one{
+                width: 90%;
+                height: 13em;
+                border: 1px solid $text-light;
+                padding-right: 1em;
+                padding-left: 1em;
+                .title{
+                    display: flex;
+                    padding: 1em;
+                    .Product_title_main{
+                        width: 55%;
+                    }
+                    p{
+                        color: $support_color;
+                        width: 15%;
+                        text-align: center;
+                    }
+                }
+                .content{
+                    display: flex;
+                    align-items: flex-end;
+                    border-bottom: 1px solid $text-light;
+                    .content__{
+                        width: 55%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1em;
+                        padding-bottom: 1em;
+                        .x{
+                            
+                            cursor: pointer;
+                        }
+                        .subcontent{
+                            height: 100%;
+                            padding-top: 0.5em;
+                        }
+                    }
+                    .p{
+                        width: 15%;
+                        text-align: center;
+                        padding-bottom: 1em;
+                    }
+                    p{
+                        color: $support_color;
+                        
+                    }
+                }
+               .under_content{
+                padding: 1em;
+                p{
+                    color: $text-light;
+                    padding-left: 2em;
+                    font-size: 1.2rem;
+                    cursor: not-allowed;
+                }
+               }
+            }
+            .Product_card_two{
+                width: 90%;
+                height: 6em;
+                border: 1px solid $text-light;
+                .cupon{
+                    padding: 1em;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2em;
+                    input{
+                        padding: 1em;
+                        height: 3em;
+                        width: 60%;
+                        border: 1px solid $text-light;
+                        background-color: #F7F7F7;
+                    }
+                    button{
+                        border-radius: 5px !important;
+                        width: 12em;
+                        border: 1px solid $primary;
+                        background-color: $secondary;
+                        color: $support_color;
+                        &:hover{
+                            background-color:$primary;
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+        .Product_content_right{
+            width: 40%;
+            height: 35em;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+           .Product_card_three{
+                width: 90%;
+                height: 90%;
+                border: 1px solid $text-light;
+                padding-left: 3em;
+                padding-right: 3em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .subtotal , .total{
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        color: $text-light;
+                    }
+                }
+                .center{
+                    text-align: center;
+                }
+                p{
+                    color: $support_color;
+                }
+                button{
+                    width: 100%;
+                    height: 4em;
+                    border: 1px solid $primary;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        background-color: $secondary;
+                        color: $support_color;
+                    }
+                }
+           }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1450px) {
+    .Product{
+        .Product_info{
+            width: 100vw;
+            h1{
+                padding-left: 1em;
+            }
+        }
+        .Product_content {
+        width: 100vw;  
+        height: 100vh; 
+      .Product_content_left{
+        align-items: center;
+        width: 100%;
+        height: 50% !important;
+      }
+      .Product_content_right{
+        justify-content: center;
+        width: 100%;
+        height: 50% !important;
+      }
+    }
+    }
+    
+  }
+  @media only screen and (max-width: 500px){
+    .Product_card_one{
+        min-height: 25em !important;
+    }
+  }
